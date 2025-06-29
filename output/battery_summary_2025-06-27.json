@@ -1,0 +1,10 @@
+{
+    "date": "2025-06-27",
+    "summary": {
+        "Critical": 718,
+        "Warning": 714,
+        "Healthy": 8
+    },
+    "avg_failure_prob": 0.694,
+    "recommendation": "Immediate servicing. Avoid high speeds and long trips."
+}

@@ -1,0 +1,802 @@
+[
+    {
+        "Total Pack Voltage":332.47,
+        "Max Cell Temp":51.3,
+        "Internal Resistance":0.00444,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7285681511,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":367.04,
+        "Max Cell Temp":63.3,
+        "Internal Resistance":0.00388,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.8026004574,
+        "Recommendation":"Reduce driving speed to lower thermal stress."
+    },
+    {
+        "Total Pack Voltage":353.92,
+        "Max Cell Temp":63.5,
+        "Internal Resistance":0.00308,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7539399234,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":345.92,
+        "Max Cell Temp":65.9,
+        "Internal Resistance":0.00485,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.9953381747,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":319.36,
+        "Max Cell Temp":68.2,
+        "Internal Resistance":0.0044,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":1.0047816071,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":319.36,
+        "Max Cell Temp":74.4,
+        "Internal Resistance":0.00257,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8937126788,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":313.49,
+        "Max Cell Temp":62.9,
+        "Internal Resistance":0.00519,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":1.0083090714,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":361.97,
+        "Max Cell Temp":58.1,
+        "Internal Resistance":0.00488,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7473909656,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":346.07,
+        "Max Cell Temp":69.9,
+        "Internal Resistance":0.00532,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.9915176632,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":352.48,
+        "Max Cell Temp":56.8,
+        "Internal Resistance":0.00454,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.6758254202,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":311.24,
+        "Max Cell Temp":61.0,
+        "Internal Resistance":0.00415,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.9261112098,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":368.19,
+        "Max Cell Temp":52.0,
+        "Internal Resistance":0.00346,
+        "Predicted Status":"Healthy",
+        "Predicted Failure Probability":0.5241200975,
+        "Recommendation":"Battery is healthy. No action needed."
+    },
+    {
+        "Total Pack Voltage":359.95,
+        "Max Cell Temp":50.6,
+        "Internal Resistance":0.00526,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7021912963,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":322.74,
+        "Max Cell Temp":74.1,
+        "Internal Resistance":0.00503,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":1.1518397696,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":320.91,
+        "Max Cell Temp":70.9,
+        "Internal Resistance":0.00216,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7003789027,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":321.0,
+        "Max Cell Temp":67.4,
+        "Internal Resistance":0.00209,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.639942647,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":328.25,
+        "Max Cell Temp":60.2,
+        "Internal Resistance":0.00332,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7982648912,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":341.49,
+        "Max Cell Temp":54.3,
+        "Internal Resistance":0.00484,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7718873754,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":335.92,
+        "Max Cell Temp":53.9,
+        "Internal Resistance":0.00546,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7477621938,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":327.47,
+        "Max Cell Temp":56.3,
+        "Internal Resistance":0.00253,
+        "Predicted Status":"Healthy",
+        "Predicted Failure Probability":0.5586909256,
+        "Recommendation":"Battery is healthy. No action needed."
+    },
+    {
+        "Total Pack Voltage":346.71,
+        "Max Cell Temp":63.7,
+        "Internal Resistance":0.00408,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8692623678,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":318.37,
+        "Max Cell Temp":67.9,
+        "Internal Resistance":0.00333,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.9089562465,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":327.53,
+        "Max Cell Temp":66.5,
+        "Internal Resistance":0.00539,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.9665229121,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":331.98,
+        "Max Cell Temp":57.0,
+        "Internal Resistance":0.00495,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8038143496,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":337.36,
+        "Max Cell Temp":73.9,
+        "Internal Resistance":0.00493,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.9551370483,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":357.11,
+        "Max Cell Temp":68.4,
+        "Internal Resistance":0.00364,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8320875312,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":321.98,
+        "Max Cell Temp":63.9,
+        "Internal Resistance":0.00345,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.778647984,
+        "Recommendation":"Reduce driving speed to lower thermal stress."
+    },
+    {
+        "Total Pack Voltage":340.85,
+        "Max Cell Temp":65.3,
+        "Internal Resistance":0.00296,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.6957887541,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":345.54,
+        "Max Cell Temp":60.5,
+        "Internal Resistance":0.0022,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.683850645,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":312.79,
+        "Max Cell Temp":56.2,
+        "Internal Resistance":0.00503,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8629201288,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":346.45,
+        "Max Cell Temp":58.9,
+        "Internal Resistance":0.00485,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7128543883,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":320.23,
+        "Max Cell Temp":68.9,
+        "Internal Resistance":0.0055,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.943074535,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":313.9,
+        "Max Cell Temp":50.4,
+        "Internal Resistance":0.00549,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8226472726,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":366.93,
+        "Max Cell Temp":52.9,
+        "Internal Resistance":0.00394,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.5827397128,
+        "Recommendation":"Optimize charge cycles. Maintain 20\u201380% range."
+    },
+    {
+        "Total Pack Voltage":367.94,
+        "Max Cell Temp":51.2,
+        "Internal Resistance":0.00469,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7248260375,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":358.5,
+        "Max Cell Temp":51.0,
+        "Internal Resistance":0.00531,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7463099766,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":328.28,
+        "Max Cell Temp":71.4,
+        "Internal Resistance":0.00497,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.968791373,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":315.86,
+        "Max Cell Temp":67.6,
+        "Internal Resistance":0.00287,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8733605592,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":351.05,
+        "Max Cell Temp":61.9,
+        "Internal Resistance":0.00358,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7867138561,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":336.41,
+        "Max Cell Temp":52.4,
+        "Internal Resistance":0.00245,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.537801333,
+        "Recommendation":"Optimize charge cycles. Maintain 20\u201380% range."
+    },
+    {
+        "Total Pack Voltage":317.32,
+        "Max Cell Temp":62.3,
+        "Internal Resistance":0.00534,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":1.0006156343,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":339.71,
+        "Max Cell Temp":61.8,
+        "Internal Resistance":0.00412,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.8544763277,
+        "Recommendation":"Reduce driving speed to lower thermal stress."
+    },
+    {
+        "Total Pack Voltage":312.06,
+        "Max Cell Temp":54.3,
+        "Internal Resistance":0.0028,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.694244244,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":364.56,
+        "Max Cell Temp":60.8,
+        "Internal Resistance":0.00435,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.7624763658,
+        "Recommendation":"Reduce driving speed to lower thermal stress."
+    },
+    {
+        "Total Pack Voltage":325.53,
+        "Max Cell Temp":60.0,
+        "Internal Resistance":0.00416,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8935219094,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":349.75,
+        "Max Cell Temp":65.4,
+        "Internal Resistance":0.00325,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.6598723723,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":328.7,
+        "Max Cell Temp":65.9,
+        "Internal Resistance":0.0024,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.734302273,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":341.2,
+        "Max Cell Temp":51.1,
+        "Internal Resistance":0.00435,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.6524540403,
+        "Recommendation":"Consider battery check-up. Avoid deep discharges."
+    },
+    {
+        "Total Pack Voltage":342.8,
+        "Max Cell Temp":59.4,
+        "Internal Resistance":0.00382,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.6502093178,
+        "Recommendation":"Optimize charge cycles. Maintain 20\u201380% range."
+    },
+    {
+        "Total Pack Voltage":321.09,
+        "Max Cell Temp":65.6,
+        "Internal Resistance":0.0047,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8877178437,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":368.18,
+        "Max Cell Temp":62.6,
+        "Internal Resistance":0.00382,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8365983538,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":356.51,
+        "Max Cell Temp":71.4,
+        "Internal Resistance":0.00498,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.9240114993,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":366.37,
+        "Max Cell Temp":66.5,
+        "Internal Resistance":0.00393,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.747453473,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":363.69,
+        "Max Cell Temp":54.1,
+        "Internal Resistance":0.00396,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.6002756578,
+        "Recommendation":"Optimize charge cycles. Maintain 20\u201380% range."
+    },
+    {
+        "Total Pack Voltage":345.87,
+        "Max Cell Temp":51.8,
+        "Internal Resistance":0.00507,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7221912004,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":365.31,
+        "Max Cell Temp":66.1,
+        "Internal Resistance":0.00341,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7932377297,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":315.31,
+        "Max Cell Temp":50.7,
+        "Internal Resistance":0.00247,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.5786574757,
+        "Recommendation":"Optimize charge cycles. Maintain 20\u201380% range."
+    },
+    {
+        "Total Pack Voltage":321.76,
+        "Max Cell Temp":64.6,
+        "Internal Resistance":0.0021,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.7192964289,
+        "Recommendation":"Reduce driving speed to lower thermal stress."
+    },
+    {
+        "Total Pack Voltage":312.71,
+        "Max Cell Temp":73.5,
+        "Internal Resistance":0.00464,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.963608676,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":329.52,
+        "Max Cell Temp":64.4,
+        "Internal Resistance":0.00417,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.7982267405,
+        "Recommendation":"Reduce driving speed to lower thermal stress."
+    },
+    {
+        "Total Pack Voltage":333.32,
+        "Max Cell Temp":59.7,
+        "Internal Resistance":0.00446,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.7930639276,
+        "Recommendation":"Consider battery check-up. Avoid deep discharges."
+    },
+    {
+        "Total Pack Voltage":326.28,
+        "Max Cell Temp":66.1,
+        "Internal Resistance":0.00275,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.6366797582,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":359.72,
+        "Max Cell Temp":61.5,
+        "Internal Resistance":0.00248,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.5961021604,
+        "Recommendation":"Reduce driving speed to lower thermal stress."
+    },
+    {
+        "Total Pack Voltage":331.41,
+        "Max Cell Temp":63.6,
+        "Internal Resistance":0.00205,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7020856234,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":326.86,
+        "Max Cell Temp":73.5,
+        "Internal Resistance":0.00323,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.9725497067,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":342.56,
+        "Max Cell Temp":59.7,
+        "Internal Resistance":0.00406,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8234040253,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":318.46,
+        "Max Cell Temp":74.0,
+        "Internal Resistance":0.00337,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.9524708501,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":358.13,
+        "Max Cell Temp":72.6,
+        "Internal Resistance":0.00353,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.9277603028,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":314.47,
+        "Max Cell Temp":54.9,
+        "Internal Resistance":0.00516,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8937422113,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":369.21,
+        "Max Cell Temp":51.7,
+        "Internal Resistance":0.00322,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.6032877526,
+        "Recommendation":"Optimize charge cycles. Maintain 20\u201380% range."
+    },
+    {
+        "Total Pack Voltage":356.33,
+        "Max Cell Temp":52.5,
+        "Internal Resistance":0.0038,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.6392328007,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":321.92,
+        "Max Cell Temp":50.5,
+        "Internal Resistance":0.00474,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.6809544962,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":310.33,
+        "Max Cell Temp":52.4,
+        "Internal Resistance":0.00339,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7137283221,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":358.93,
+        "Max Cell Temp":67.1,
+        "Internal Resistance":0.00418,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8351503108,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":352.41,
+        "Max Cell Temp":51.8,
+        "Internal Resistance":0.00502,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.74662379,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":353.74,
+        "Max Cell Temp":58.0,
+        "Internal Resistance":0.00532,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7460950546,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":356.28,
+        "Max Cell Temp":71.1,
+        "Internal Resistance":0.00251,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7709481741,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":314.44,
+        "Max Cell Temp":50.6,
+        "Internal Resistance":0.00524,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8245354345,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":331.51,
+        "Max Cell Temp":70.4,
+        "Internal Resistance":0.00372,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.809632889,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":316.95,
+        "Max Cell Temp":57.0,
+        "Internal Resistance":0.0029,
+        "Predicted Status":"Healthy",
+        "Predicted Failure Probability":0.5923036386,
+        "Recommendation":"Battery is healthy. No action needed."
+    },
+    {
+        "Total Pack Voltage":361.79,
+        "Max Cell Temp":53.0,
+        "Internal Resistance":0.00361,
+        "Predicted Status":"Healthy",
+        "Predicted Failure Probability":0.5164578645,
+        "Recommendation":"Battery is healthy. No action needed."
+    },
+    {
+        "Total Pack Voltage":347.4,
+        "Max Cell Temp":67.4,
+        "Internal Resistance":0.00543,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":1.0007470187,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":329.85,
+        "Max Cell Temp":65.7,
+        "Internal Resistance":0.00372,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8996320133,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":313.81,
+        "Max Cell Temp":71.9,
+        "Internal Resistance":0.00315,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8478048777,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":328.66,
+        "Max Cell Temp":68.4,
+        "Internal Resistance":0.00422,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7933371675,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":329.51,
+        "Max Cell Temp":70.1,
+        "Internal Resistance":0.00284,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8109476244,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":353.78,
+        "Max Cell Temp":57.1,
+        "Internal Resistance":0.00227,
+        "Predicted Status":"Healthy",
+        "Predicted Failure Probability":0.4940899168,
+        "Recommendation":"Battery is healthy. No action needed."
+    },
+    {
+        "Total Pack Voltage":348.25,
+        "Max Cell Temp":54.4,
+        "Internal Resistance":0.00245,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.5628461834,
+        "Recommendation":"Optimize charge cycles. Maintain 20\u201380% range."
+    },
+    {
+        "Total Pack Voltage":363.23,
+        "Max Cell Temp":68.8,
+        "Internal Resistance":0.00245,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.6488619128,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":338.33,
+        "Max Cell Temp":70.2,
+        "Internal Resistance":0.00253,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8348915717,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":317.18,
+        "Max Cell Temp":74.8,
+        "Internal Resistance":0.00249,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8764571338,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":352.79,
+        "Max Cell Temp":60.3,
+        "Internal Resistance":0.00424,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.7773599046,
+        "Recommendation":"Reduce driving speed to lower thermal stress."
+    },
+    {
+        "Total Pack Voltage":355.65,
+        "Max Cell Temp":59.3,
+        "Internal Resistance":0.00264,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.572436006,
+        "Recommendation":"Optimize charge cycles. Maintain 20\u201380% range."
+    },
+    {
+        "Total Pack Voltage":343.68,
+        "Max Cell Temp":69.4,
+        "Internal Resistance":0.00321,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8376083852,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":356.26,
+        "Max Cell Temp":58.5,
+        "Internal Resistance":0.00514,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8915124279,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":339.63,
+        "Max Cell Temp":73.3,
+        "Internal Resistance":0.00366,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.8382600184,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":341.36,
+        "Max Cell Temp":71.5,
+        "Internal Resistance":0.00434,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.9732064499,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":335.65,
+        "Max Cell Temp":60.7,
+        "Internal Resistance":0.0026,
+        "Predicted Status":"Warning",
+        "Predicted Failure Probability":0.6228862349,
+        "Recommendation":"Reduce driving speed to lower thermal stress."
+    },
+    {
+        "Total Pack Voltage":311.53,
+        "Max Cell Temp":68.8,
+        "Internal Resistance":0.00267,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.9013333329,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    },
+    {
+        "Total Pack Voltage":316.47,
+        "Max Cell Temp":68.9,
+        "Internal Resistance":0.00214,
+        "Predicted Status":"Critical",
+        "Predicted Failure Probability":0.7862447302,
+        "Recommendation":"Immediate servicing. Avoid high speeds and long trips."
+    }
+]
