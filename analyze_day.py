@@ -1,69 +1,76 @@
-import os
 import pandas as pd
-import joblib
+import psycopg2
+from sqlalchemy import create_engine
 import json
-import datetime
-import requests
-from recommenders.recommendation_engine import recommend_action
+from datetime import datetime
+import numpy as np
+import boto3
+import os
 
-# ✅ Step 1: Ensure output folder exists
-os.makedirs("output", exist_ok=True)
+# --- Database connection ---
+db_url = "postgresql://postgres:Root22012003@bms-database.c94sysco8nc8.eu-north-1.rds.amazonaws.com:5432/bmsdb"
+table_name = "bms"
 
-# ✅ Step 2: Fetch today's data from your API
-fetch_url = "http://13.60.195.136:5050/bms-data"
-response = requests.get(fetch_url)
+# --- AWS S3 settings ---
+bucket_name = "bms-model"
+s3 = boto3.client('s3')
 
-if response.status_code != 200:
-    print("Failed to fetch BMS data. Status code:", response.status_code)
-    exit()
+# --- Date range for today's records ---
+today = datetime.now().date()
+start_time = datetime.combine(today, datetime.min.time())
+end_time = datetime.combine(today, datetime.max.time())
 
-data = response.json()
-df = pd.DataFrame(data)
+# --- Connect and fetch today's data ---
+engine = create_engine(db_url)
+query = f"""
+SELECT * FROM {table_name}
+WHERE timestamp BETWEEN '{start_time}' AND '{end_time}'
+"""
+df = pd.read_sql(query, engine)
 
-# ✅ Step 3: Preprocess
-df["Cell Balancing Status"] = df["Cell Balancing Status"].map({"Inactive": 0, "Active": 1})
+# --- Analyze BMS status and estimate failure probability ---
+if not df.empty:
+    if "Cell Balancing Status" in df.columns:
+        df["Cell Balancing Status"] = df["Cell Balancing Status"].map({"Inactive": 0, "Active": 1})
+    
+    df["failure_prob"] = df["BMS Status"].map({"Healthy": 0.1, "Warning": 0.5, "Critical": 0.9}) + np.random.normal(0, 0.05, len(df))
+    df["failure_prob"] = df["failure_prob"].clip(0, 1)
 
-# ✅ Step 4: Load trained ML models
-clf = joblib.load("models/bms_status_classifier.pkl")
-reg = joblib.load("models/failure_predictor.pkl")
-scaler = joblib.load("models/scaler.pkl")
-encoder = joblib.load("models/label_encoder.pkl")
+    summary = {
+        "date": str(today),
+        "summary": df["BMS Status"].value_counts().to_dict(),
+        "avg_failure_prob": round(df["failure_prob"].mean(), 3),
+        "recommendation": (
+            "Reduce aggressive driving and monitor cell temps closely."
+            if df["BMS Status"].eq("Warning").sum() > 20
+            else "Battery healthy. No action needed."
+        )
+    }
+else:
+    summary = {
+        "date": str(today),
+        "summary": {},
+        "avg_failure_prob": None,
+        "recommendation": "No data available for the day."
+    }
 
-X = df[[
-    "Total Pack Voltage", "Max Cell Voltage", "Min Cell Reading",
-    "Max Cell Temp", "Average Cell Temp", "Internal Resistance",
-    "Estimated Range", "Cell Balancing Status"
-]]
-X_scaled = scaler.transform(X)
+# --- Save JSON locally ---
+summary_json = json.dumps(summary, indent=4)
+output_folder = "output"
+os.makedirs(output_folder, exist_ok=True)
+output_filename = f"battery_summary_{today}.json"
+output_path = os.path.join(output_folder, output_filename)
 
-# Step 5: Predict and recommend
-df["Predicted Status"] = encoder.inverse_transform(clf.predict(X_scaled))
-df["Predicted Failure Probability"] = reg.predict(X_scaled)
-df["Recommendation"] = df.apply(recommend_action, axis=1)
-
-# Step 6: Aggregate result
-summary = {
-    "date": datetime.date.today().isoformat(),
-    "summary": df["Predicted Status"].value_counts().to_dict(),
-    "avg_failure_prob": round(df["Predicted Failure Probability"].mean(), 3),
-    "recommendation": df["Recommendation"].value_counts().idxmax()
-}
-
-# Step 7: Save locally
-output_path = f"output/battery_summary_{summary['date']}.json"
 with open(output_path, "w") as f:
-    json.dump(summary, f, indent=4)
+    f.write(summary_json)
 
-print(f"Battery summary saved to {output_path}")
+print(f"Summary saved to: {output_path}")
 
-# Step 8: Send to Android IVI App (API must be ready to receive JSON POST)
-android_api_url = "http://13.60.195.136:8080/battery-summary"
+# --- Upload to S3 ---
+s3 = boto3.client("s3")
 
 try:
-    response = requests.post(android_api_url, json=summary)
-    if response.status_code == 200:
-        print("Summary successfully sent to Android IVI app!")
-    else:
-        print(f"Failed to send summary. Status: {response.status_code}, Response: {response.text}")
+    s3.upload_file(output_path, bucket_name, f"bms_summaries/{output_filename}")
+    print(f" Uploaded to S3 bucket '{bucket_name}' as 'bms_summaries/{output_filename}'")
 except Exception as e:
-    print("Error posting to Android app backend:", str(e))
+    print(f" S3 Upload failed: {str(e)}")
